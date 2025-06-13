@@ -1,12 +1,27 @@
-# React + Vite
+# Crypto Chat Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart, mobile-friendly chatbot where you can talk to a crypto assistant to get live prices, trending coins, coin stats, and even track your own portfolio — all inside a clean chat UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What this project does
 
-## Expanding the ESLint configuration
+This is a simple web app where you can:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Ask for current prices of coins (e.g., “What’s ETH trading at?”)
+- See today’s trending coins
+- Ask for market cap, 24h change, and symbol
+- Track your own holdings like “I have 2 ETH”
+- See your live portfolio value
+- View a 7-day price chart
+- Talk to the bot using your mic
+- Hear replies out loud (speech)
+
+---
+
+##  Tech Stack
+
+- **React + Vite**
+- **CoinGecko API** (Free, no key needed)
+- **Web Speech API** (for mic input and bot voice)
+- **Plain CSS / Tailwind** (any styling)
